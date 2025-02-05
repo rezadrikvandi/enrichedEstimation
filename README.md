@@ -2,11 +2,11 @@ You can install this R package using the following two commands in R:
 
 library(devtools)
 
-install_github("rezadrikvandi/enrichedInference")
+install_github("rezadrikvandi/enrichedEstimation")
 
-and then load it using library(enrichedInference)
+and then load it using library(enrichedEstimation)
 
-Details about this R package can be found in the DESCRIPTION file and the main R file. The package implements the enriched estimation and inference for high dimensional data. The main function is called "enrichedInference" which applies both the enriched estimation and inference. Also, a test data set is included together with the real data set "riboflavin" analysed in the paper.
+Details about this R package can be found in the DESCRIPTION file and the main R file. The package implements the enriched estimation and inference for high dimensional data. The main function is called "enrichedInference" which applies the enriched estimation and inference. Also, a test data set is included together with the real data set "riboflavin" analysed in the paper.
 
 To apply the enriched method to a test data set in the package called testdata (with n=100, p=500 and only the first three covariates being truly significant each with coefficient 1 and with no true intercept), try this command:
 
